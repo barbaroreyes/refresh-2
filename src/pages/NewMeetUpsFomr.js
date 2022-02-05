@@ -9,8 +9,23 @@ const NewMeetuPForm = () => {
  
   const submitHandler = (e) => {
     e.preventDefault();
+
  const enterredTitle = titleInput.current.value;
+ const enterredImage = imageInput.current.value;
+ const enterredAddress = addressInput.current.value;
+ const enterredDescription = descriptionInput.current.value;
+
+ const meetupData = {
+  title: enterredTitle,
+  image : enterredImage,
+  address: enterredAddress,
+  description: enterredDescription
+}
+ 
+console.log(meetupData)
   }
+
+  
   return (
     <Card>
      <div>
