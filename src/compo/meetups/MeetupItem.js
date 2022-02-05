@@ -6,6 +6,7 @@ const MeetupItem = (props) => {
     <div  className="meetup">
            
            <div className="picture">
+               <span>{props.id}</span>
            <h2 className='meet-up-name'>{props.title}</h2>
            <img src={props.image} alt='item'/>
            <address>{props.address}</address>
