@@ -1,10 +1,12 @@
-import { DUMMY_DATA} from "../../data"
+
 import MeetupItem from './MeetupItem'
 
-const MeetupList = () => {
+const MeetupList = ({loadedMeetup}) => {
+ console.log(loadedMeetup , 'loadedMeetup')
   return (
     <div>
-      {DUMMY_DATA.map((item ,i)=>{
+      {loadedMeetup.map((item ,i)=>{
+        
         return (
             <MeetupItem  key={i}{...item}/>
         )
