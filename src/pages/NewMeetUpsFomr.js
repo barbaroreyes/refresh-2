@@ -1,7 +1,8 @@
 import React,{useRef} from 'react';
 import Card from '../compo/ui/Card';
-
-const NewMeetuPForm = () => {
+import {useNavigate} from 'react-router-dom'
+const NewMeetuPForm = (props) => {
+  const history = useNavigate()
  const titleInput = useRef()
  const imageInput = useRef()
  const addressInput = useRef()
@@ -22,7 +23,7 @@ const NewMeetuPForm = () => {
   description: enterredDescription
 }
  
-console.log(meetupData)
+ props.onAddMeetUp(meetupData)
   }
 
   
@@ -48,7 +49,7 @@ console.log(meetupData)
          <textarea id='description' required rows='5' ref={descriptionInput}></textarea>
         </div>
         <div className="actions">
-          <button type>Add Meetup</button>
+          <button onClick={() => history('/')}>Add Meetup</button>
         </div>
         
       </form>
