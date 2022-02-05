@@ -96,3 +96,7 @@ img{
   background-color: black;
   padding: 20px;
 }
+.picture-btn:hover{
+background-color:#fff;
+color: black;
+}

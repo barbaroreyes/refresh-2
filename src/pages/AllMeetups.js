@@ -5,9 +5,7 @@ const AllMeetups = () => {
   return (
     <div>
      <h1 className="all"> All Meetups </h1>
-    
-           <MeetupList/>
-      
+    <MeetupList/>
     </div>
   );
 }
