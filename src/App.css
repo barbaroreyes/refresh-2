@@ -52,3 +52,6 @@ a{
   text-decoration: none;
   color: rgb(131, 71, 71);
 }
+a:hover{
+  color: rgb(131, 71, 71);
+}
