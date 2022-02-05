@@ -11,7 +11,7 @@ const MainNavigation = () => {
                     <Link to ='/'>All-Meetups</Link>
                 </li>
                 <li>
-                    <Link to ='/favorites'>Favorites-Pages</Link>
+                    <Link to ='/favorites'>My Favorites Pages</Link>
                 </li>
                 <li>
                     <Link to ='/new-meetup'>New-Meetup</Link>
