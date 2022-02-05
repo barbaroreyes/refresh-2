@@ -19,3 +19,36 @@ h2 {
   font-size: 1.5rem;
   color: #2c292b;
 }
+header{
+  width: 100%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo{
+  width: 30%;
+  font-size: 2.3rem;
+}
+nav{
+  width: 50%;
+  display:flex;
+  justify-content: center;
+  padding: 10px;
+}
+ul{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+li{
+  margin: 10px;
+  list-style: none;
+  display:flex;
+  justify-content: center;
+
+}
+a{
+  text-decoration: none;
+  color: rgb(131, 71, 71);
+}

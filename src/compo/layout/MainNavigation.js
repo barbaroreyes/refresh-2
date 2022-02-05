@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const MainNavigation = () => {
   return (
     <header>
-        <div>React Meetups</div>
+        <div className="logo">React Meetups</div>
         <nav>
             <ul>
                 <li>
