@@ -1,9 +1,10 @@
 import React from 'react';
+import Card from '../ui/Card';
 
 const MeetupItem = (props) => {
 
   return (
-    <div  className="meetup">
+    <Card>
            
            <div className="picture">
                <span>{props.id}</span>
@@ -16,7 +17,7 @@ const MeetupItem = (props) => {
            
            </div>
            
-           </div>
+           </Card>
   );
 }
 
